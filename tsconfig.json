@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    // web brower : AMD (aysnchronous module definition)
+    // nodejs : commonjs
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    // Transfile 할 대상 자바스크립트 버전 설정.
+    "target": "es2017",
+
+    "sourceMap": true,
+    // Transfile 된 ES8 자바스크립트 파일을 저장하는 dir
+    // outDir 키는 baseDir 설정값을 기준으로 했을 때 하위 dir name
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true
+  }
+}
