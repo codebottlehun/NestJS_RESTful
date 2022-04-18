@@ -14,7 +14,3 @@ https://ko.wikipedia.org/wiki/의존성_주입
 https://github.com/lujakob/nestjs-realworld-example-app  
 > typeorm 기술 문서  
 https://typeorm.io/#/  
-
-### 구성  
-
-node Module 은 포함하지 않은 상태입니다.  
